@@ -1,8 +1,8 @@
 :root {
   --background-color: white;
   --outside-color: #A3948D;
-  --text-color: #645D61;
-  --accent: #22262C;
+  --text-color: #0E171D;
+  --accent: #22262C; 
   --accent-hover: #965E3E;
   --link: #672407; 
 }
@@ -52,6 +52,11 @@ h1 {
     font-weight: bold;
     font-size: 35px;
     margin: 1vw;
+}
+
+h2 {
+  opacity: 0.8;
+  font-size: 17px;
 }
 
 nav {
@@ -132,4 +137,14 @@ hr {
   margin: 0;
   color: var(--text-color);
   z-index: 10;
+}
+
+@media (max-width: 950px) {
+  .adornment {
+    position: static;
+    top: auto;
+    right: auto;
+    margin: 1vw auto 0;
+    text-align: center;
+  }
 }
