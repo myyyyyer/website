@@ -1,10 +1,24 @@
 :root {
   --background-color: white;
   --outside-color: #A3948D;
-  --text-color: #0E171D;
+  --text-color: #554E52;
   --accent: #22262C; 
   --accent-hover: #965E3E;
   --link: #672407; 
+}
+
+@font-face {
+  font-family: 'British Green';
+  src: url('/fonts/British\ Green.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sina Nova';
+  src: url('/fonts/Sina\ Nova\ W01\ Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 * {
@@ -37,9 +51,9 @@ body {
     gap: 1vw;
     background: var(--background-color);
     color: var(--text-color);
-    font-family: 'Inconsolata', monospace;
-    font-size: 12px;
-    line-height: 1.65;
+    font-family: 'Sina Nova', serif;
+    font-size: 15px;
+    line-height: 1.5;
     padding: 2vw;
     text-align: center;
 }
@@ -52,11 +66,18 @@ h1 {
     font-weight: bold;
     font-size: 35px;
     margin: 1vw;
+    font-family: 'Inconsolata', monospace;
 }
 
 h2 {
   opacity: 0.75;
   font-size: 17px;
+  font-family: 'Inconsolata', monospace;
+}
+
+h3 {
+  font-family: 'Inconsolata', monospace;
+  font-size: 14px;
 }
 
 nav {
@@ -67,6 +88,7 @@ nav {
     gap: 35px;
     color: var(--text-color);
     font-size: 13px;
+    font-family: 'Inconsolata', monospace;
 }
 
 nav a:hover {
