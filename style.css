@@ -7,20 +7,6 @@
   --link: #672407; 
 }
 
-@font-face {
-  font-family: 'British Green';
-  src: url('/fonts/British\ Green.otf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Sina Nova';
-  src: url('/fonts/Sina\ Nova\ W01\ Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
 * {
   box-sizing: border-box;
 }
@@ -51,8 +37,8 @@ body {
     gap: 1vw;
     background: var(--background-color);
     color: var(--text-color);
-    font-family: 'Sina Nova', serif;
-    font-size: 15px;
+    font-family: 'Inconsolata', monospace;
+    font-size: 12px;
     line-height: 1.5;
     padding: 2vw;
     text-align: center;
