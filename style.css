@@ -9,14 +9,14 @@
 
 @font-face {
   font-family: 'Bunny';
-  src: url('fonts/TheGoddessBunny-TwoStep.otf') format('opentype');
+  src: url('TheGoddessBunny-TwoStep.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'CC';
-  src: url('fonts/ClosedCaption.otf') format('opentype');
+  src: url('ClosedCaption.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
