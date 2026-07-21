@@ -36,6 +36,7 @@ a {
 }
 
 body {
+    position: relative;
     display: flex; 
     flex-direction: column;
     align-items: center;
@@ -164,7 +165,7 @@ hr {
   z-index: 10;
 }
 
-@media (max-width: 950px) {
+@media (max-width: 975px) {
   .adornment {
     position: static;
     top: auto;
@@ -172,4 +173,25 @@ hr {
     margin: 1vw auto 0;
     text-align: center;
   }
+}
+
+.font-credit {
+  position: fixed;
+  bottom: 12px;
+  right: 12px;
+  font-size: 9px;
+  opacity: 0.5;
+  z-index: 10;
+}
+
+.font-credit a {
+  color: var(--link);
+  font-weight: normal;
+  text-decoration: none;
+}
+
+.font-credit a:hover {
+  color: var(--accent-hover);
+  opacity: 1;
+  text-decoration: underline dotted var(--accent);
 }
