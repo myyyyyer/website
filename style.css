@@ -175,6 +175,12 @@ hr {
   }
 }
 
+@media (max-width: 480px) {
+ img {
+    width: 350px;
+  }
+}
+
 .font-credit {
   position: fixed;
   bottom: 12px;
